@@ -36,12 +36,12 @@ fpv-video-signal-quality-estimation/
 ## Installation & Requirements
 
 ### Python Version
-- Python **3.8+** recommended
+- Python **3.12+** recommended
 
 ### Required Libraries
 
 ```bash
-pip install opencv-python numpy matplotlib
+pip install -r requirements.txt
 ```
 
 ---
@@ -53,7 +53,7 @@ pip install opencv-python numpy matplotlib
 Edit the video path inside `video_strength_OSD.py`:
 
 ```python
-video_path = "path/to/your/video.ts"
+video_path = "path/to/your/video.mp4"
 ```
 
 Run:
@@ -72,8 +72,8 @@ Controls:
 Edit both video paths in `video_strength_matplotlib.py`:
 
 ```python
-video1 = "path/to/video1.ts"
-video2 = "path/to/video2.ts"
+video1 = "path/to/video1.mp4"
+video2 = "path/to/video2.mp4"
 ```
 
 Run:
