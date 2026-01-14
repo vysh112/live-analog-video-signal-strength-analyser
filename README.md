@@ -19,16 +19,18 @@ This work is intended for **research, benchmarking, and experimental validation*
 ## Repository Structure
 
 ```
-fpv-video-signal-quality-estimation/
+live-analog-video-signal-strength-analyser/
 │
-├── video_strength_OSD.py
-│   └── Real-time FPV signal strength estimation with on-screen display
-│
-├── video_strength_matplotlib.py
-│   └── Dual-video comparative analysis with live and final plots
+├── src/
+│   ├── video_strength_OSD.py
+│   │   └── Implements real-time FPV signal strength estimation with on-screen diagnostic overlays, intended for live monitoring and qualitative assessment of analog video link quality.
+│   │
+│   └── video_strength_matplotlib.py
+│       └── Performs dual-video comparative analysis of FPV links, generating live and post-run plots of signal quality metrics for quantitative evaluation and experimental benchmarking.
 │
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---
