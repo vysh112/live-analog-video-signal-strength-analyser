@@ -1,4 +1,4 @@
-# FPV Video Signal Quality Estimation Framework
+# Analog Video Signal Quality Estimation Framework
 
 ## Overview
 
